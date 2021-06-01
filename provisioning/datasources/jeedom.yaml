@@ -1,0 +1,20 @@
+# config file version
+apiVersion: 1
+
+datasources:
+  - name: JeedomInfluxDB
+    uid: jeedom_influxdb
+    orgId: 1
+    type: influxdb
+    access: proxy
+    isDefault: true
+    editable: false
+    url: http://influx:8086
+    database: $JEEDOM_DATASOURCE_BUCKET
+    jsonData:
+      httpMode: GET
+      httpHeaderName1: 'Authorization'
+    secureJsonData:
+      httpHeaderValue1: 'Token $JEEDOM_DATASOURCE_TOKEN'
+    version: 1
+    apiVersion: 1
