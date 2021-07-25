@@ -32,18 +32,13 @@ docker-compose down
 
 InfluxBD GUI is available here:
 ```
-\<ip or localhost\>:8086
+<ip or localhost>:8086
 ```
 Grafana GUI is available here:
 ```
-\<ip or localhost\>:3000
+<ip or localhost>:3000
 ```
 Portainer GUI is available here:
 ```
-\<ip or localhost\>:9000
+<ip or localhost>:9000
 ```
-
-Direct local access:
-InfluxDB: [http://localhost:8086]
-Grafana: [http://localhost:3000]
-Portainer: [http://localhost:9000]
